@@ -1,6 +1,6 @@
 #Ingresar un Número y mostrar si es Positivo , Negativo o Cero
 def Positivo_negativo_cero():
-    n=float(input("Ingrese Número:"))
+    n=int(input("Ingrese Número:"))
     if (n<0):
         print("El Número es Negativo")
     elif (n>0):
