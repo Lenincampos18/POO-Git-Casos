@@ -1,9 +1,9 @@
-#Ingresar un número entre 0 y 999, luego mostrar la cantidad de dígitos que tiene
+#Ingresar un número entre 0 y 999, luego mostrar la cantidad de dígitos que tiene 
 def validar_numero():
         while True:
             n=int(input("\nIngrese un Valor Positivo de hasta tres Digitos:"))
             if (n<0 or n>999):
-                print("El Número Ingresado debe estar en el Rango [0,999]")
+                print("El Número Ingresado debe estar en el Rango [0,9999]")
 
             if (n>=0 and n<=999):
                 break
