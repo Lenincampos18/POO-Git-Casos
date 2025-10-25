@@ -14,7 +14,7 @@ def salida(n):
         elif n<100:
             print(n,"----> Tiene dos Dígitos")
         else:
-            print(n,"----> Tiene Tres Dígitos")
+            print(n,"----> Tiene Tres Dígitos mal escritos")
 #Invocación de Métodos
 n=validar_numero()
 salida(n)
