@@ -18,9 +18,11 @@ public class Main{
         System.out.println("Ingrese el nombre del estudiante: ");
         String nombre = sc.nextLine();
         
+        
         //Apellido
         System.out.println("Ingrese el apellido del estudiante: ");
         String apellido = sc.nextLine();
+        
 
         //Promedio
         System.out.println("Ingrese el promedio del estudiante: ");
@@ -39,9 +41,11 @@ public class Main{
             System.out.println("2. Modificar Nombre");
             System.out.println("3. Modificar Apellido");
             System.out.println("4. Modificar Promedio");
-            System.out.println("5. Salir");
+            System.out.println("5. Mostrar Datos Actualizados");
+            System.out.println("6. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = sc.nextInt();
+            sc.nextLine();
 
             switch (opcion) {
                 case 1:
