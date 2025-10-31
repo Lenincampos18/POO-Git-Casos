@@ -16,7 +16,7 @@ public class CuentaBancaria {
             saldo += cantidad;
             System.out.println("Depósito realizado. Saldo actual: $" + saldo);
         } else {
-            System.out.println("La cantidad a depositar debe ser positiva.");
+            System.out.println("LA CANTIDAD A DEPOSITAR DEBE SER POSITIVA.");
         }
     }
 
